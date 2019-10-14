@@ -1,9 +1,13 @@
 import React, { Component } from "react";
-import { Homepage } from "./homepage.component";
+import Homepage from "./homepage.component";
 
 class App extends Component {
   render() {
-    return <Homepage />;
+    return (
+      <div>
+        <Homepage />
+      </div>
+    );
   }
 }
 
